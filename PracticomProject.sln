@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticomProject.Repositories", "PracticomProject.Repositories\PracticomProject.Repositories.csproj", "{996446FA-C446-489C-875D-C248E98B41BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticomProject.Common", "PracticomProject.Common\PracticomProject.Common.csproj", "{14BC4363-588C-46A8-A982-07EEC53987FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticomProject.Context", "PracticomProject.Context\PracticomProject.Context.csproj", "{D2EFAC7F-E060-4A5B-A16E-7DE8DECDAE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticomProject.Mock", "PracticomProject.Mock\PracticomProject.Mock.csproj", "{404AC5FB-9983-4B33-92A6-E6A29F617756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticomProject.Services", "PracticomProject.Services\PracticomProject.Services.csproj", "{7EF128F7-C82C-41DA-B2D9-B5CACB4EE4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticomProject.WebAPI", "PracticomProject.WebAPI\PracticomProject.WebAPI.csproj", "{1BAFB3A2-8474-4A40-9494-B58EE9BB04A4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D2EFAC7F-E060-4A5B-A16E-7DE8DECDAE45} = {D2EFAC7F-E060-4A5B-A16E-7DE8DECDAE45}
+		{7EF128F7-C82C-41DA-B2D9-B5CACB4EE4C3} = {7EF128F7-C82C-41DA-B2D9-B5CACB4EE4C3}
+		{404AC5FB-9983-4B33-92A6-E6A29F617756} = {404AC5FB-9983-4B33-92A6-E6A29F617756}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{996446FA-C446-489C-875D-C248E98B41BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996446FA-C446-489C-875D-C248E98B41BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996446FA-C446-489C-875D-C248E98B41BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996446FA-C446-489C-875D-C248E98B41BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BC4363-588C-46A8-A982-07EEC53987FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BC4363-588C-46A8-A982-07EEC53987FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BC4363-588C-46A8-A982-07EEC53987FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BC4363-588C-46A8-A982-07EEC53987FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2EFAC7F-E060-4A5B-A16E-7DE8DECDAE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EFAC7F-E060-4A5B-A16E-7DE8DECDAE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EFAC7F-E060-4A5B-A16E-7DE8DECDAE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EFAC7F-E060-4A5B-A16E-7DE8DECDAE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404AC5FB-9983-4B33-92A6-E6A29F617756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404AC5FB-9983-4B33-92A6-E6A29F617756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404AC5FB-9983-4B33-92A6-E6A29F617756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404AC5FB-9983-4B33-92A6-E6A29F617756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF128F7-C82C-41DA-B2D9-B5CACB4EE4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF128F7-C82C-41DA-B2D9-B5CACB4EE4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF128F7-C82C-41DA-B2D9-B5CACB4EE4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF128F7-C82C-41DA-B2D9-B5CACB4EE4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAFB3A2-8474-4A40-9494-B58EE9BB04A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAFB3A2-8474-4A40-9494-B58EE9BB04A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAFB3A2-8474-4A40-9494-B58EE9BB04A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAFB3A2-8474-4A40-9494-B58EE9BB04A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F5F742C-49C0-4742-9FC6-69D84C9D7778}
+	EndGlobalSection
+EndGlobal
